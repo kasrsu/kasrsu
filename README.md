@@ -10,6 +10,6 @@
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user={kasrsu}&theme={dark}" />
 <img src="https://github-profile-trophy.vercel.app/?username={kasrsu}&theme={dark}" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={kasrsu}" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username={kasrsu}" />
 
 

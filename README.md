@@ -3,4 +3,4 @@
 🔭 I’m Studiying Data Science in NSBM
 
 
-https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=OpenZeppelin&logoColor=fff&style=for-the-badge
+<img src="{https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white}" />

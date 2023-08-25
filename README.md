@@ -8,5 +8,5 @@
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user={kasrsu}&theme={dark}" />
 <img src="https://github-profile-trophy.vercel.app/?username={kasrsu}&theme={dark}" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={kasrsu}&theme={dark}" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={kasrsu}" />
 <img src="" />

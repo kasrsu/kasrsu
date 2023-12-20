@@ -3,8 +3,6 @@
 ### Hi TECHIES I'm KASR Sugeeeshwara
 
 🔭 I’m Studiying Data Science in NSBM
-
-
 <a href="https://komarev.com/ghpvc/?username=alsiam">
   <img align="right" src="https://komarev.com/ghpvc/?username=kasrsu&label=Visitors&color=0e75b6&style=flat" alt="Profile visitor" />
 </a>

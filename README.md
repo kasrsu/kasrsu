@@ -1,194 +1,84 @@
-# <div align="center">
+Got it. You want a clean **Markdown-only** README with icons, badges, and sectioning — no broken SVGs, no weird CSS that GitHub strips. Here's a **copy-paste-ready version**:
 
-<!-- Inline SVG: GLITCH BANNER (paste as‑is in README) -->
+---
 
-<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="KASR — Data Science • AI • Graphs">
-  <defs>
-    <filter id="glitch">
-      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="8" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#7C4DFF"/>
-      <stop offset="100%" stop-color="#FF3D7F"/>
-    </linearGradient>
-    <style>
-      @keyframes rgbSplit {
-        0% { transform: translate(0,0); filter: url(#glitch); opacity: 1; }
-        20% { transform: translate(-2px,1px); }
-        40% { transform: translate(2px,-1px); }
-        60% { transform: translate(-1px,1px); }
-        80% { transform: translate(1px,-1px); }
-        100% { transform: translate(0,0); }
-      }
-      @keyframes scan {
-        0% { opacity: 0.1; }
-        50% { opacity: 0.35; }
-        100% { opacity: 0.1; }
-      }
-      .title { font: 900 88px/1.05 "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji"; paint-order: stroke; stroke: #000; stroke-width: 8; }
-      .stroke { fill: none; stroke: url(#grad); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 12 12; animation: scan 3.2s infinite ease-in-out; }
-      .layer { animation: rgbSplit 2.4s infinite steps(1); }
-      .r { fill: #ff004d; mix-blend-mode: screen; }
-      .g { fill: #00e5ff; mix-blend-mode: screen; }
-      .b { fill: #7c4dff; mix-blend-mode: screen; }
-      .main { fill: url(#grad); filter: url(#glitch); }
-      .tag  { font: 600 20px/1.4 "Inter", system-ui; letter-spacing: 2px; text-transform: uppercase; fill: #b3b3b3; }
-    </style>
-  </defs>
-
-  <rect width="100%" height="100%" fill="#0a0a0a" rx="20"/>
-
-  <!-- scan line accent -->
-
-  <path class="stroke" d="M40 150 H1160"/>
-
-  <!-- GLITCHED LAYERS -->
-
-  <g transform="translate(40,55)">
-    <text x="0" y="0" class="title r layer">KASR</text>
-    <text x="0" y="0" class="title g layer">KASR</text>
-    <text x="0" y="0" class="title b layer">KASR</text>
-    <text x="0" y="0" class="title main">KASR</text>
-  </g>
-
-<text x="40" y="165" class="tag">Data Science • AI • Graphs • ZAARA Labs</text> </svg>
-
-</div>
+# 🚀 **KASR | Data Science • AI • Graphs**
 
 <p align="center">
-  <b>Ship fast. Break patterns. Measure impact.</b><br/>I build AI/DS products that don’t just look smart — they hit metrics.
+  <img src="https://img.shields.io/badge/Data%20Science-Expert-ff69b4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI%20Engineer-Active-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Graph%20DB-Neo4j-blue?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <a href="#featured">Featured</a> •
-  <a href="#stack">Tech Stack</a> •
-  <a href="#status">Now</a> •
-  <a href="#stats">Stats</a> •
-  <a href="#contact">Contact</a>
+  <b>Ship fast. Break patterns. Measure impact.</b><br/>
+  AI + Data Science projects that hit metrics, not just buzzwords.
 </p>
 
 ---
 
-## <span id="featured">🚀 Featured
+## 🔥 Featured Projects
 
-> Zero fluff. Real work. If it doesn’t demo in 60s, it doesn’t ship.
-
-* **MENTO — AI Education Mentor (Neo4j + LLM)**
-  Graph-powered guidance for Sri Lankan students after A/Ls. Personalized paths, module maps, tech‑news recommendations.
-
-  * Backend: Neo4j, FastAPI, local LLM (Mistral/CodeLlama via Ollama)
-  * Frontend: React Native (mobile), chat-first UX
-  * Extras: News clustering + progress-aware recs
-  * Demo: `link-here`
-
-* **AI → Human Converter (ZAARA Labs)**
-  Turns AI‑sounding text into clean human voice & style. Your content, not robotic filler.
-
-  * Use cases: Upwork proposals, landing copy, emails
-  * Demo: `link-here`
-
-* **Tech Updates Engine**
-  Pulls tech news (Dev.to, daily.dev, Google News), clusters to student modules, and recommends what actually matters.
-
-  * Demo: `link-here`
-
-* **NLP Converter Tool**
-  Classifies & style‑transforms text with guardrails.
-
-  * Demo: `link-here`
+| Project                  | Description                                                                                        | Tech Stack                                   |
+| ------------------------ | -------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| **MENTO**                | AI-powered education mentor for Sri Lankan students, personalized paths, progress-aware tech news. | `Neo4j` `FastAPI` `React Native` `Local LLM` |
+| **AI → Human Converter** | Converts robotic AI text into natural human tone for content, freelancing, and emails.             | `Python` `NLP`                               |
+| **Tech Updates Engine**  | Clusters trending tech news to match user progress & recommends useful updates.                    | `Scrapers` `Clustering` `Neo4j`              |
+| **NLP Converter Tool**   | Style transfer & classification with guardrails.                                                   | `Python` `Transformers`                      |
 
 ---
 
-## <span id="stack">🧰 Tech Stack
+## 🧰 Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Neo4j-018BFF?logo=neo4j&logoColor=fff" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=fff" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Mistral_AI-FF5C83?logo=mistral&logoColor=fff" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Neo4j-018BFF?logo=neo4j&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mistral%20AI-FF5C83?logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
 </p>
 
 ---
 
-## <span id="status">📡 Now — what I’m actively pushing
-
-* Shipping **MENTO** rec engine to prod (progress-aware + clustering)
-* Hardening local LLM stack (8GB RAM budget)
-* Standing up servers for real‑time fetch + APIs
-* Road to **professor**: open‑source course materials & demos
-
----
-
-## <span id="stats">📊 Stats (because receipts matter)
+## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KASR-username&show_icons=true&hide_title=true" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com?user=KASR-username" alt="Streak" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KASR-username" alt="Activity Graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=radical" width="48%" />
 </p>
 
-> Replace `KASR-username` with your actual GitHub handle.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark" />
+</p>
 
 ---
 
-## <span id="contact">🤝 Let’s build
+## 📡 What I’m Working On
 
-* Email: `your-email@domain`
-* X / Twitter: `@yourhandle`
-* Upwork / Fiverr: `links-here`
-
----
-
-### Bonus: Inline animated name tag (SVG)
-
-Paste this anywhere in the README (or save as `assets/kasr-name.svg` and `<img src="assets/kasr-name.svg" width="420">`).
-
-```html
-<svg width="420" height="100" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" aria-label="KASR tag">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#7C4DFF"/>
-      <stop offset="100%" stop-color="#FF3D7F"/>
-    </linearGradient>
-    <style>
-      @keyframes dash { to { stroke-dashoffset: -1000; } }
-      @keyframes pop { 0%{ transform: scale(1); } 50%{ transform: scale(1.04);} 100%{ transform: scale(1);} }
-      text { font: 800 52px/1.1 Inter, system-ui; letter-spacing: 2px; }
-      .outline { fill: none; stroke: url(#g); stroke-width: 3; stroke-dasharray: 14 10; animation: dash 6s linear infinite; }
-      .fill { fill: url(#g); }
-      .wrap { transform-origin: 50% 50%; animation: pop 2.8s ease-in-out infinite; }
-    </style>
-  </defs>
-  <rect width="100%" height="100%" rx="16" fill="#0a0a0a"/>
-  <g class="wrap">
-    <text x="24" y="64" class="fill">KASR</text>
-    <rect x="12" y="18" width="396" height="64" rx="14" class="outline"/>
-  </g>
-</svg>
-```
+* 🚀 Shipping **MENTO** recommendation engine (progress-aware)
+* 🛠 Building real-time APIs + server setup
+* 🧠 Hardening local LLM stack (8GB RAM budget)
+* 🎯 Road to **Professor**: Open-sourcing educational content
 
 ---
 
-### Pro tip: Make the README your repo homepage
+## 🤝 Connect With Me
 
-* Put this as `README.md` in your profile repo named **`<your-username>`** (exact match).
-* Keep the SVGs inline (best) or save them in `/assets` and reference with `<img src="assets/..svg">`.
-* No scripts, no external CSS — everything here renders on GitHub as‑is.
+<p align="center">
+  <a href="https://twitter.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
+  <a href="https://www.upwork.com/freelancers/~YOUR_PROFILE"><img src="https://img.shields.io/badge/Upwork-6FDA44?logo=upwork&logoColor=white" /></a>
+  <a href="https://fiverr.com/YOUR_PROFILE"><img src="https://img.shields.io/badge/Fiverr-1DBF73?logo=fiverr&logoColor=white" /></a>
+</p>
 
 ---
 
-### Replace‑me checklist
+## ✅ To-Do for You:
 
-* [ ] Swap `KASR-username` with your GitHub handle
-* [ ] Add demo links for each project
-* [ ] Add contact links
-* [ ] Commit and pin repos to your profile
+* Replace `YOUR_USERNAME`, `YOUR_HANDLE`, and links with your info.
+* Pin your top repos so they match **Featured Projects** above.
+* Commit as `README.md` in your **profile repo** (must be named `your-github-username`).
 
-> If you want different colorways or effects (scanlines, CRT, matrix rain, neon tube), ping me — I’ll drop alternate SVGs.
+---

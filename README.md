@@ -82,15 +82,6 @@
 
 ---
 
-## 🛠️ Setup Instructions
-
-1. **Verify placeholders**: Confirm `kasrsu` is your GitHub username. Update `kasrsugeeshwara@gmail.com` and social links if needed.
-2. **Pin repos**: Pin the repos listed in **Featured Projects** on your GitHub profile.
-3. **Commit**: Save this as `README.md` in your profile repo (named `kasrsu`).
-4. **Check rendering**: Ensure badges, graphs, and animations display correctly on GitHub.
-
----
-
 <p align="center">
   <b>Let’s weave the future, one connection at a time. 🌍</b><br/>
   <img src="https://komarev.com/ghpvc/?username=kasrsu&color=ff69b4&style=flat-square&label=Profile+Views" alt="Profile Views" />

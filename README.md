@@ -51,6 +51,10 @@ Got it. You want a clean **Markdown-only** README with icons, badges, and sectio
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kasrsu&theme=react-dark" />
 </p>
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kasrsu&layout=compact&theme=tokyonight)
+![Metrics](https://raw.githubusercontent.com/YOUR_USERNAME/kasrsu/main/github-metrics.svg)
+![GitHub Streak](https://streak-stats.demolab.com?user=kasrsu&theme=tokyonight)
 
 ---
 
@@ -66,10 +70,7 @@ Got it. You want a clean **Markdown-only** README with icons, badges, and sectio
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://twitter.com/YOUR_HANDLE"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
-  <a href="https://www.upwork.com/freelancers/~YOUR_PROFILE"><img src="https://img.shields.io/badge/Upwork-6FDA44?logo=upwork&logoColor=white" /></a>
-  <a href="https://fiverr.com/YOUR_PROFILE"><img src="https://img.shields.io/badge/Fiverr-1DBF73?logo=fiverr&logoColor=white" /></a>
+  <a href="kasrsugeeshwara@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
 </p>
 
 ---

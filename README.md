@@ -1,117 +1,194 @@
+# <div align="center">
 
+<!-- Inline SVG: GLITCH BANNER (paste as‑is in README) -->
 
-### Hi TECHIES I'm KASR Sugeeeshwara
+<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="KASR — Data Science • AI • Graphs">
+  <defs>
+    <filter id="glitch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C4DFF"/>
+      <stop offset="100%" stop-color="#FF3D7F"/>
+    </linearGradient>
+    <style>
+      @keyframes rgbSplit {
+        0% { transform: translate(0,0); filter: url(#glitch); opacity: 1; }
+        20% { transform: translate(-2px,1px); }
+        40% { transform: translate(2px,-1px); }
+        60% { transform: translate(-1px,1px); }
+        80% { transform: translate(1px,-1px); }
+        100% { transform: translate(0,0); }
+      }
+      @keyframes scan {
+        0% { opacity: 0.1; }
+        50% { opacity: 0.35; }
+        100% { opacity: 0.1; }
+      }
+      .title { font: 900 88px/1.05 "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji"; paint-order: stroke; stroke: #000; stroke-width: 8; }
+      .stroke { fill: none; stroke: url(#grad); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 12 12; animation: scan 3.2s infinite ease-in-out; }
+      .layer { animation: rgbSplit 2.4s infinite steps(1); }
+      .r { fill: #ff004d; mix-blend-mode: screen; }
+      .g { fill: #00e5ff; mix-blend-mode: screen; }
+      .b { fill: #7c4dff; mix-blend-mode: screen; }
+      .main { fill: url(#grad); filter: url(#glitch); }
+      .tag  { font: 600 20px/1.4 "Inter", system-ui; letter-spacing: 2px; text-transform: uppercase; fill: #b3b3b3; }
+    </style>
+  </defs>
 
-🔭 I’m Studiying Data Science in NSBM
-  <img align="right" src="https://komarev.com/ghpvc/?username=kasrsu&label=Visitors&color=0e75b6&style=flat" alt="Profile visitor" />
-</a>
+  <rect width="100%" height="100%" fill="#0a0a0a" rx="20"/>
 
+  <!-- scan line accent -->
 
-[![wakatime](https://wakatime.com/badge/user/eebb3dd8-d9b2-40de-9b88-6fd6cac99dbc.svg)](https://wakatime.com/@eebb3dd8-d9b2-40de-9b88-6fd6cac99dbc)
+  <path class="stroke" d="M40 150 H1160"/>
 
-<!-- Intro  -->
+  <!-- GLITCHED LAYERS -->
 
+  <g transform="translate(40,55)">
+    <text x="0" y="0" class="title r layer">KASR</text>
+    <text x="0" y="0" class="title g layer">KASR</text>
+    <text x="0" y="0" class="title b layer">KASR</text>
+    <text x="0" y="0" class="title main">KASR</text>
+  </g>
 
+<text x="40" y="165" class="tag">Data Science • AI • Graphs • ZAARA Labs</text> </svg>
 
-<p align="center"> 
-  <samp>
-    <a href="https://www.google.com/search?q=Saif+Al+Siam">「 Google Me 」</a>
-    <br>
-    「 I am a full stack web appplication developer from <b>Sri Lanka Colombo</b> 」
-    <br>
-    <br>
-  </samp>
+</div>
+
+<p align="center">
+  <b>Ship fast. Break patterns. Measure impact.</b><br/>I build AI/DS products that don’t just look smart — they hit metrics.
 </p>
 
 <p align="center">
- <a href="https://alsiam.com" target="blank">
-  <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="alsiam" />
- </a>
- <a href="https://linkedin.com/in/saifalsiam" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="alsiam"/>
- </a>
- <a href="https://dev.to/alsiam" target="_blank">
-  <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="alsiam" />
- </a>
- <a href="https://twitter.com/alsiam_dev" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
- </a>
- <a href="https://instagram.com/alsiam.dev" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-fe4164?style=for-the-badge&logo=instagram&logoColor=white" alt="alsiam" />
- </a> 
- <a href="https://facebook.com/alsiam.dev" target="_blank">
-  <img src="https://img.shields.io/badge/Facebook-20BEFF?&style=for-the-badge&logo=facebook&logoColor=white" alt="alsiam"  />
-  </a> 
-</p>
-<br />
-
-<!-- About Section -->
- # About me
- 
-<p>
- <img align="right" width="350" src="/assets/programmer.gif" alt="Coding gif" />
-  
- ✌️ &emsp; Enjoy to do programming and sharing knowledge <br/><br/>
- ❤️ &emsp; Love to writing code and learning new features<br/><br/>
- 📧 &emsp; Reach me anytime: kasrsugeeshwara.com<br/><br/>
- 💬 &emsp; Ask me about anything [here](https://github.com/kasrsu](https://github.com/kasrsu)
-
+  <a href="#featured">Featured</a> •
+  <a href="#stack">Tech Stack</a> •
+  <a href="#status">Now</a> •
+  <a href="#stats">Stats</a> •
+  <a href="#contact">Contact</a>
 </p>
 
-<br/>
-<br/>
-<br/>
+---
 
-## Use To Code
+## <span id="featured">🚀 Featured
 
-![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
-![Typescript](https://img.shields.io/badge/Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)
-![React](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Nodejs](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SASS Badge](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Ant-Design](https://img.shields.io/badge/AntDesign-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+> Zero fluff. Real work. If it doesn’t demo in 60s, it doesn’t ship.
 
-<br/>
+* **MENTO — AI Education Mentor (Neo4j + LLM)**
+  Graph-powered guidance for Sri Lankan students after A/Ls. Personalized paths, module maps, tech‑news recommendations.
 
+  * Backend: Neo4j, FastAPI, local LLM (Mistral/CodeLlama via Ollama)
+  * Frontend: React Native (mobile), chat-first UX
+  * Extras: News clustering + progress-aware recs
+  * Demo: `link-here`
 
+* **AI → Human Converter (ZAARA Labs)**
+  Turns AI‑sounding text into clean human voice & style. Your content, not robotic filler.
 
-<p align="left">
-  <a href="https://github.com/alsiam?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
-</p>
+  * Use cases: Upwork proposals, landing copy, emails
+  * Demo: `link-here`
 
-<br/>
-<hr/>
-<br/>
+* **Tech Updates Engine**
+  Pulls tech news (Dev.to, daily.dev, Google News), clusters to student modules, and recommends what actually matters.
+
+  * Demo: `link-here`
+
+* **NLP Converter Tool**
+  Classifies & style‑transforms text with guardrails.
+
+  * Demo: `link-here`
+
+---
+
+## <span id="stack">🧰 Tech Stack
 
 <p align="center">
-  <a href="https://github.com/kasrsu">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=alsiam&theme=radical&border=7F3FBF&background=0D1117" alt="Saif's GitHub streak"/>
-  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Neo4j-018BFF?logo=neo4j&logoColor=fff" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=fff" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Mistral_AI-FF5C83?logo=mistral&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" />
 </p>
+
+---
+
+## <span id="status">📡 Now — what I’m actively pushing
+
+* Shipping **MENTO** rec engine to prod (progress-aware + clustering)
+* Hardening local LLM stack (8GB RAM budget)
+* Standing up servers for real‑time fetch + APIs
+* Road to **professor**: open‑source course materials & demos
+
+---
+
+## <span id="stats">📊 Stats (because receipts matter)
 
 <p align="center">
-  <a href="https://github.com/kasrsu">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kasrsu&theme=radical" alt="Al Siam's GitHub Contribution"/>
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=KASR-username&show_icons=true&hide_title=true" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=KASR-username" alt="Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KASR-username" alt="Activity Graph" />
 </p>
 
-<a> 
-    <a href="https://github.com/kasrsu"><img alt="KASR's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=kasrsu&show_icons=true&count_private=true&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px" width="49.5%"/></a>
-  <a href="https://github.com/kasrsu"><img alt="KASR's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=kasrsu&langs_count=8&layout=compact&theme=react&border_color=7F3FBF&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px" width="49.5%"/></a>
-  <br/>
-</a>
+> Replace `KASR-username` with your actual GitHub handle.
 
+---
 
-![KASR's Graph](https://github-readme-activity-graph.cyclic.app/graph?username=kasrsu&custom_title=Al%20Siam's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true)
+## <span id="contact">🤝 Let’s build
+
+* Email: `your-email@domain`
+* X / Twitter: `@yourhandle`
+* Upwork / Fiverr: `links-here`
+
+---
+
+### Bonus: Inline animated name tag (SVG)
+
+Paste this anywhere in the README (or save as `assets/kasr-name.svg` and `<img src="assets/kasr-name.svg" width="420">`).
+
+```html
+<svg width="420" height="100" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" aria-label="KASR tag">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#7C4DFF"/>
+      <stop offset="100%" stop-color="#FF3D7F"/>
+    </linearGradient>
+    <style>
+      @keyframes dash { to { stroke-dashoffset: -1000; } }
+      @keyframes pop { 0%{ transform: scale(1); } 50%{ transform: scale(1.04);} 100%{ transform: scale(1);} }
+      text { font: 800 52px/1.1 Inter, system-ui; letter-spacing: 2px; }
+      .outline { fill: none; stroke: url(#g); stroke-width: 3; stroke-dasharray: 14 10; animation: dash 6s linear infinite; }
+      .fill { fill: url(#g); }
+      .wrap { transform-origin: 50% 50%; animation: pop 2.8s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="16" fill="#0a0a0a"/>
+  <g class="wrap">
+    <text x="24" y="64" class="fill">KASR</text>
+    <rect x="12" y="18" width="396" height="64" rx="14" class="outline"/>
+  </g>
+</svg>
+```
+
+---
+
+### Pro tip: Make the README your repo homepage
+
+* Put this as `README.md` in your profile repo named **`<your-username>`** (exact match).
+* Keep the SVGs inline (best) or save them in `/assets` and reference with `<img src="assets/..svg">`.
+* No scripts, no external CSS — everything here renders on GitHub as‑is.
+
+---
+
+### Replace‑me checklist
+
+* [ ] Swap `KASR-username` with your GitHub handle
+* [ ] Add demo links for each project
+* [ ] Add contact links
+* [ ] Commit and pin repos to your profile
+
+> If you want different colorways or effects (scanlines, CRT, matrix rain, neon tube), ping me — I’ll drop alternate SVGs.
